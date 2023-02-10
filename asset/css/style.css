@@ -107,3 +107,38 @@
 .ex-4-square {
     transition:3s;
 }
+
+/* esercizio 5 */
+
+.ex-5-square:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
+}
+
+.ex-5-square {
+    transition: 3s;
+}
+
+/* esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+
+.ex-7-img {
+    filter: sepia(0.4) saturate(0.5) blur(3px) ;
+}
+
+.ex-7-img:hover {
+    filter: none;
+}
+.ex-7-img {
+    transition: 3s;
+}
