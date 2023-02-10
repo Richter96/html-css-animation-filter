@@ -172,3 +172,55 @@
         transform:rotate(360deg)
     }
 }
+
+/* esercizio 11 */
+
+.ex-11-icon {
+    animation: rotate 1s infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes rotate {
+    50% {
+        transform:rotate(260deg)
+    }
+}
+
+/* esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveleft 3s linear;
+}
+
+@keyframes moveleft {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveright 3s linear;
+}
+
+@keyframes moveright {
+    0% {
+        left: 10%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+
+/* esercizio 13 */
