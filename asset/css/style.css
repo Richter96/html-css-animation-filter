@@ -142,3 +142,20 @@
 .ex-7-img {
     transition: 3s;
 }
+
+/* esercizio 8 */
+
+.ex-8-img{
+    filter: drop-shadow(2px 4px 6px black) grayscale(50%);
+    border-radius: 40px;;
+}
+
+/* esercizio 9 */
+.ex-9-img:hover {
+    filter: drop-shadow(16px 16px 20px red) invert(80%);
+    border-radius: 30px;
+}
+
+.ex-9-img {
+    transition: 3s;
+}
