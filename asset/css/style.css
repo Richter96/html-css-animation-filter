@@ -159,3 +159,16 @@
 .ex-9-img {
     transition: 3s;
 }
+
+/* esercizio 10 */
+
+.ex-10-icon {
+    animation: mymove 1s infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes mymove {
+    100% {
+        transform:rotate(360deg)
+    }
+}
