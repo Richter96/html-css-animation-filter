@@ -175,14 +175,21 @@
 
 /* esercizio 11 */
 
-.ex-11-icon {
-    animation: rotate 1s infinite;
+.ex-11-icon:hover {
+    animation: rotate 3s ;
     animation-timing-function:linear;
+    e
 }
 
 @keyframes rotate {
-    50% {
+    0% {
+        transform:rotate(0);
+    }
+    90% {
         transform:rotate(260deg)
+    }
+    100% {
+        transform:rotate(0deg)
     }
 }
 
